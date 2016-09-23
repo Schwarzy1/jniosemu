@@ -17,7 +17,7 @@ public class LedDevice extends MemoryBlock
 	/**
 	 * Memory address which this uses
 	 */
-	private static final int MEMORYADDR = 0x810;
+	private static final int MEMORYADDR = 0x10000000;
 	/**
 	 * Memory length it uses
 	 */
@@ -29,7 +29,7 @@ public class LedDevice extends MemoryBlock
 	/**
 	 * Number of leds
 	 */
-	private static final int COUNT = 4;
+	private static final int COUNT = 10;
 	/**
 	 * Containing the states of each dipswitch
 	 */

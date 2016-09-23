@@ -25,7 +25,7 @@ import jniosemu.Utilities;
 	/**
 	 * Number of dipswitches to display.
 	 */
-	private static int DIPSWITCH_COUNT = 4;
+	private static int DIPSWITCH_COUNT = 10;
 
 	/**
 	 * Array for GUI representation of each dipswitch.

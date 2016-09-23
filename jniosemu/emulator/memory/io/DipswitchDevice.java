@@ -17,7 +17,7 @@ public class DipswitchDevice extends MemoryBlock implements EventObserver
 	/**
 	 * Address to memory where this is placed
 	 */
-	private static final int MEMORYADDR = 0x850;
+	private static final int MEMORYADDR = 0x10000040;
 	/**
 	 * Length of memory that is used
 	 */
@@ -29,7 +29,7 @@ public class DipswitchDevice extends MemoryBlock implements EventObserver
 	/**
 	 * Number of buttons
 	 */
-	private static final int COUNT = 4;
+	private static final int COUNT = 10;
 	/**
 	 * Containing the states of each dipswitch
 	 */

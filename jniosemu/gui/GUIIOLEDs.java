@@ -25,7 +25,7 @@ import jniosemu.Utilities;
 	/**
 	 * Number of LEDs to display.
 	 */
-	private static int LED_COUNT = 4;
+	private static int LED_COUNT = 10;
 
 	/**
 	 * Array for GUI representation of each LED.
